@@ -1,5 +1,5 @@
 (function () {
-  var grt = new Date("04/01/2021 00:00:00"); //设置网站上线时间
+  var grt = new Date("03/28/2023 00:00:00"); //设置网站上线时间
   var now = new Date();
   var dnum;
   var hnum;
@@ -37,7 +37,7 @@
     } else {
       // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
       let img = document.querySelector("#workboard .workSituationImg");
-      img.src = "https://npm.elemecdn.com/anzhiyu-blog@2.0.4/img/badge/安知鱼-下班啦.svg";
+      img.src = "https://upyun.777nx.cn/badge/F%E5%B0%8F%E5%B1%8B-%E4%B8%8B%E7%8F%AD%E4%BC%91%E6%81%AF%E5%95%A6%F0%9F%8C%99-6adea8.svg";
       img.title = "下班了就该开开心心的玩耍，嘿嘿~";
       img.alt = "下班了就该开开心心的玩耍，嘿嘿~";
 
