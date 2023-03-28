@@ -140,9 +140,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -173,9 +173,20 @@
     
     
     <entry>
-      <title>相册集</title>
-      <link href="/album/index.html"/>
-      <url>/album/index.html</url>
+      <title>我的日常</title>
+      <link href="/dailyPhoto/index.html"/>
+      <url>/dailyPhoto/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -206,17 +217,6 @@
     
     
     <entry>
-      <title>music</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
@@ -228,9 +228,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>音乐馆</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -239,9 +239,9 @@
     
     
     <entry>
-      <title>我的日常</title>
-      <link href="/dailyPhoto/index.html"/>
-      <url>/dailyPhoto/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
