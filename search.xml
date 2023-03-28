@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>使用nvm管理不同版本的node与npm</title>
+      <link href="/posts/8da2db9d.html"/>
+      <url>/posts/8da2db9d.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>随着大前端的快速发展，node版本更新很快，我们在工作中，可以会有老版本的node的项目需要维护，也可能有新版本的node的项目需要开发，如果我们只有一个node版本的话将会很麻烦，nvm可以解决我们的难点</p><h2 id="教程"><a href="#教程" class="headerlink" title="教程"></a>教程</h2><p>下载安装nvm之前，我先解释一下前端容易混淆的几个概念</p><ul><li><p>Node.js：基于Chrome V8引擎的JS运行环境（javascript代码运行环境）</p></li><li><p>npm：第三方js插件包管理工具，会随着node一起安装（Node package Manager）</p></li></ul><h3 id="1-下载"><a href="#1-下载" class="headerlink" title="1. 下载"></a>1. 下载</h3><p>下载地址：<a href="https://github.com/coreybutler/nvm-windows/releases">nvm github下载地址</a></p><p><img src="https://img.777nx.cn/test/image-20230324162449120.png" alt="image-20230324162449120"></p><h3 id="2-安装"><a href="#2-安装" class="headerlink" title="2. 安装"></a>2. 安装</h3><ol><li><p>首先最重要的是：一定要卸载已安装的 NodeJS，否则会发生冲突。</p></li><li><p>安装时，建议选择手动安装版，然后疯狂下一步就行，不要尝试改变安装目录<br>（我因为不想放在C盘，被折磨了好几个小时，老老实实默认下一步，省事）</p></li></ol><h3 id="3-检查安装是否成功"><a href="#3-检查安装是否成功" class="headerlink" title="3. 检查安装是否成功"></a>3. 检查安装是否成功</h3><p>在命令行输入 nvm 能出现反应就行OK了</p><p><img src="https://img.777nx.cn/test/image-20230324162653757.png" alt="image-20230324162653757"></p><h3 id="4-使用"><a href="#4-使用" class="headerlink" title="4. 使用"></a>4. 使用</h3><table><thead><tr><th align="center"><strong>命令</strong></th><th align="center"><strong>作用</strong></th></tr></thead><tbody><tr><td align="center">nvm ls</td><td align="center">列出所有已安装的 node 版本</td></tr><tr><td align="center">nvm ls-remote</td><td align="center">列出所有远程服务器的版本（官方node version list）</td></tr><tr><td align="center">nvm list</td><td align="center">列出所有已安装的 node 版本</td></tr><tr><td align="center">nvm list available</td><td align="center">显示所有可下载的版本</td></tr><tr><td align="center">nvm install stable</td><td align="center">安装最新版 node</td></tr><tr><td align="center">nvm install [node版本号]</td><td align="center">安装指定版本 node</td></tr><tr><td align="center">nvm uninstall [node版本号]</td><td align="center">删除已安装的指定版本</td></tr><tr><td align="center">nvm use [node版本号]</td><td align="center">切换到指定版本 node</td></tr><tr><td align="center">nvm current</td><td align="center">当前 node 版本</td></tr><tr><td align="center">nvm alias [别名] [node版本号]</td><td align="center">给不同的版本号添加别名</td></tr><tr><td align="center">nvm unalias [别名]</td><td align="center">删除已定义的别名</td></tr><tr><td align="center">nvm alias default [node版本号]</td><td align="center">设置默认版本</td></tr></tbody></table><h2 id="参考文档"><a href="#参考文档" class="headerlink" title="参考文档"></a>参考文档</h2><ol><li><p><a href="https://blog.csdn.net/jj2320711457/article/details/117431854">nvm使用教程</a></p></li><li><p><a href="https://blog.csdn.net/v_vszhao/article/details/125329517">nvm常用命令</a></p></li></ol><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>如果我一开始就知道这工具，就不用两个版本来回装好几次，各种bug各种不兼容都是泪啊</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> npm </tag>
+            
+            <tag> node </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>npm常用指令</title>
       <link href="/posts/4e4cffb7.html"/>
       <url>/posts/4e4cffb7.html</url>
@@ -46,6 +73,58 @@
         <tags>
             
             <tag> 数学建模 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>将网站/博客打包成桌面APP</title>
+      <link href="/posts/4bea1ff9.html"/>
+      <url>/posts/4bea1ff9.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-预览"><a href="#1-预览" class="headerlink" title="1. 预览"></a>1. 预览</h2><div class="hide-block"><button type="button" class="hide-button" style="">预览效果    </button><div class="hide-content"><p>桌面图标：</p><p><img src="https://img.777nx.cn/test/cc7bacfb1570a8f7936c3b838408c3e.jpg" alt="cc7bacfb1570a8f7936c3b838408c3e"></p></div></div><h2 id="2-应用创建"><a href="#2-应用创建" class="headerlink" title="2. 应用创建"></a>2. 应用创建</h2><p><a href="https://www.apicloud.com/">点击注册 &#x2F; 登录</a>，点击右上角进入控制台，点击左上角创建应用</p><p><img src="https://img.777nx.cn/test/202212221321020.webp" alt="202212221321020"></p><p>选择 Web App, 然后点击创建应用</p><p><img src="https://img.777nx.cn/test/202212221322176.webp" alt="202212221322176"></p><p>然后对左侧五个模块进行个性化设置</p><p><img src="https://img.777nx.cn/test/202212221324789.webp" alt="202212221324789"></p><h2 id="3-详细说明"><a href="#3-详细说明" class="headerlink" title="3. 详细说明"></a>3. 详细说明</h2><p>这里对五个模块进行一下简单的说明吧！</p><h3 id="3-1-端设置"><a href="#3-1-端设置" class="headerlink" title="3.1 端设置"></a>3.1 端设置</h3><p> <code>图标</code>上传大小不超过 1M，长宽等比且范围在 50px 至 200px 之间的 png 格式图片；<code>横竖屏设置</code>选择竖屏应用；<code>状态栏</code>个人建议选择显示；<code>启动页</code>上传尺寸为 1080*1920 的图片。</p><h3 id="3-2-证书"><a href="#3-2-证书" class="headerlink" title="3.2 证书"></a>3.2 证书</h3><p><code>Android证书</code>选择一键创建证书，iOS 不用管。</p><h3 id="3-3-代码"><a href="#3-3-代码" class="headerlink" title="3.3 代码"></a>3.3 代码</h3><p>填入你的网站地址 即：你的博客地址。</p><h3 id="3-4-模块"><a href="#3-4-模块" class="headerlink" title="3.4 模块"></a>3.4 模块</h3><p>在模块库中选择 <code>webBrowser</code>, 其他的随意个性化。</p><h3 id="3-5-云编译"><a href="#3-5-云编译" class="headerlink" title="3.5 云编译"></a>3.5 云编译</h3><p><code>应用名称</code>: 己想；<code>应用类别</code>: 其他；<code>平台</code>: 我是 Android 所以选 Android (不要选择 GooglePlay 格式); <code>类型</code>：正式版；<code>调试模式</code>：禁用；<code>全局加密</code>：禁用；<code>渠道打包</code>：禁用；<code>SVN设置</code>: 禁用；版本更具自己的情况来就行了！</p><p>然后点击 <strong>云编译</strong> , 过一会就会生成你的专属 APP，扫码下载即可！👻</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 网站 </tag>
+            
+            <tag> APP </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Vue2笔记</title>
+      <link href="/posts/9ae38eea.html"/>
+      <url>/posts/9ae38eea.html</url>
+      
+        <content type="html"><![CDATA[<div class="note success flat"><p>笔记来自于黑马程序员课程</p></div><div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://www.bilibili.com/video/BV1zq4y1p7ga/">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="background-image: url(https://api.iowen.cn/favicon/www.bilibili.com/video/BV1zq4y1p7ga/.png);"></div>        <div class="tag-link-right">            <div class="tag-link-title">黑马程序员Vue全套视频教程</div>            <div class="tag-link-sitename">从vue2.0到vue3.0一套全覆盖，前端学习核心框架教程</div>        </div>        <i class="fa-solid fa-angle-right"></i>    </div>    </a></div><h2 id="推荐安装的-VScode-中的-Vue-插件"><a href="#推荐安装的-VScode-中的-Vue-插件" class="headerlink" title="推荐安装的 VScode 中的 Vue 插件"></a>推荐安装的 VScode 中的 Vue 插件</h2><ol><li>Vue 3 Snippets：<a href="https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets">https://marketplace.visualstudio.com/items?itemName=hollowtree.vue-snippets</a></li><li>Vetur：<a href="https://marketplace.visualstudio.com/items?itemName=octref.vetur">https://marketplace.visualstudio.com/items?itemName=octref.vetur</a></li></ol><h2 id="什么是-vue"><a href="#什么是-vue" class="headerlink" title="什么是 vue"></a>什么是 vue</h2><ol><li>构建用户界面<ul><li>用 vue 往 html 页面中填充数据，非常的方便</li></ul></li><li>框架<ul><li>框架是一套现成的解决方案，程序员只能遵守框架的规范，去编写自己的业务功能！</li><li>要学习 vue，就是在学习 vue 框架中规定的用法！</li><li>vue 的指令、组件（是对 UI 结构的复用）、路由、Vuex、vue 组件库</li><li>只有把上面老师罗列的内容掌握以后，才有开发 vue 项目的能力！</li></ul></li></ol><h2 id="vue-的两个特性"><a href="#vue-的两个特性" class="headerlink" title="vue 的两个特性"></a>vue 的两个特性</h2><ol><li><p>数据驱动视图：</p><ul><li>数据的变化<strong>会驱动视图</strong>自动更新</li><li>好处：程序员只管把数据维护好，那么页面结构会被 vue 自动渲染出来！</li></ul></li><li><p>双向数据绑定：</p><blockquote><p>在网页中，form 表单负责<strong>采集数据</strong>，Ajax 负责<strong>提交数据</strong>。</p></blockquote><ul><li>js 数据的变化，会被自动渲染到页面上</li><li>页面上表单采集的数据发生变化的时候，会被 vue 自动获取到，并更新到 js 数据中</li></ul></li></ol><blockquote><p>注意：数据驱动视图和双向数据绑定的底层原理是 MVVM（Mode 数据源、View 视图、ViewModel 就是 vue 的实例）</p></blockquote><h2 id="vue-指令"><a href="#vue-指令" class="headerlink" title="vue 指令"></a>vue 指令</h2><h3 id="1-内容渲染指令"><a href="#1-内容渲染指令" class="headerlink" title="1. 内容渲染指令"></a>1. 内容渲染指令</h3><ol><li><code>v-text</code> 指令的缺点：会覆盖元素内部原有的内容！</li><li><code>&#123;&#123; &#125;&#125;</code> 插值表达式：在实际开发中用的最多，只是内容的占位符，不会覆盖原有的内容！</li><li><code>v-html</code> 指令的作用：可以把带有标签的字符串，渲染成真正的 HTML 内容！</li></ol><h3 id="2-属性绑定指令"><a href="#2-属性绑定指令" class="headerlink" title="2. 属性绑定指令"></a>2. 属性绑定指令</h3><blockquote><p> 注意：插值表达式只能用在元素的<strong>内容节点</strong>中，不能用在元素的<strong>属性节点</strong>中！</p></blockquote><ul><li><p>在 vue 中，可以使用 <code>v-bind:</code> 指令，为元素的属性动态绑定值；</p></li><li><p>简写是英文的 <code>:</code></p></li><li><p>在使用 v-bind 属性绑定期间，如果绑定内容需要进行动态拼接，则字符串的外面应该包裹单引号，例如：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">div</span> <span class="attr">:title</span>=<span class="string">&quot;&#x27;box&#x27; + index&quot;</span>&gt;</span>这是一个 div<span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ul><h3 id="3-事件绑定"><a href="#3-事件绑定" class="headerlink" title="3. 事件绑定"></a>3. 事件绑定</h3><ol><li><p><code>v-on:</code> 简写是 <code>@</code></p></li><li><p>语法格式为：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">&quot;add&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line">methods: &#123;</span><br><span class="line">   add() &#123;</span><br><span class="line">// 如果在方法中要修改 data 中的数据，可以通过 this 访问到</span><br><span class="line">this.count += 1</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p><code>$event</code> 的应用场景：如果默认的事件对象 e 被覆盖了，则可以手动传递一个  $event。例如：</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">click</span>=<span class="string">&quot;add(3, $event)&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br><span class="line"></span><br><span class="line">methods: &#123;</span><br><span class="line">   add(n, e) &#123;</span><br><span class="line">// 如果在方法中要修改 data 中的数据，可以通过 this 访问到</span><br><span class="line">this.count += 1</span><br><span class="line">   &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>事件修饰符：</p><ul><li><p><code>.prevent</code></p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> @<span class="attr">click.prevent</span>=<span class="string">&quot;xxx&quot;</span>&gt;</span>链接<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p><code>.stop</code></p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">button</span> @<span class="attr">click.stop</span>=<span class="string">&quot;xxx&quot;</span>&gt;</span>按钮<span class="tag">&lt;/<span class="name">button</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ul></li></ol><h3 id="4-v-model-指令"><a href="#4-v-model-指令" class="headerlink" title="4. v-model 指令"></a>4. v-model 指令</h3><ol><li>input 输入框<ul><li>type&#x3D;”radio”</li><li>type&#x3D;”checkbox”</li><li>type&#x3D;”xxxx”</li></ul></li><li>textarea</li><li>select</li></ol><h3 id="5-条件渲染指令"><a href="#5-条件渲染指令" class="headerlink" title="5. 条件渲染指令"></a>5. 条件渲染指令</h3><ol><li><code>v-show</code> 的原理是：动态为元素添加或移除 <code>display: none</code> 样式，来实现元素的显示和隐藏<ul><li>如果要频繁的切换元素的显示状态，用 v-show 性能会更好</li></ul></li><li><code>v-if</code> 的原理是：每次动态创建或移除元素，实现元素的显示和隐藏<ul><li>如果刚进入页面的时候，某些元素默认不需要被展示，而且后期这个元素很可能也不需要被展示出来，此时 v-if 性能更好</li></ul></li></ol><blockquote><p> 在实际开发中，绝大多数情况，不用考虑性能问题，直接使用 v-if 就好了！！！</p></blockquote><p>v-if 指令在使用的时候，有两种方式：</p><ol><li><p>直接给定一个布尔值 true 或 false</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">v-if</span>=<span class="string">&quot;true&quot;</span>&gt;</span>被 v-if 控制的元素<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></li><li><p>给 v-if 提供一个判断条件，根据判断的结果是 true 或 false，来控制元素的显示和隐藏</p><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">v-if</span>=<span class="string">&quot;type === &#x27;A&#x27;&quot;</span>&gt;</span>良好<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br></pre></td></tr></table></figure></li></ol><h2 id="过滤器"><a href="#过滤器" class="headerlink" title="过滤器"></a>过滤器</h2><h3 id="过滤器的注意点"><a href="#过滤器的注意点" class="headerlink" title="过滤器的注意点"></a>过滤器的注意点</h3><ol><li>要定义到 filters 节点下，<strong>本质是一个函数</strong></li><li>在过滤器函数中，<strong>一定要有 return 值</strong></li><li>在过滤器的形参中，可以获取到“管道符”前面待处理的那个值</li><li>如果全局过滤器和私有过滤器名字一致，此时按照“<strong>就近原则</strong>”，调用的是”私有过滤器“</li></ol><h2 id="watch-侦听器"><a href="#watch-侦听器" class="headerlink" title="watch 侦听器"></a>watch 侦听器</h2><h3 id="侦听器的格式"><a href="#侦听器的格式" class="headerlink" title="侦听器的格式"></a>侦听器的格式</h3><ol><li>方法格式的侦听器<ul><li>缺点1：无法在刚进入页面的时候，自动触发！！！</li><li>缺点2：如果侦听的是一个对象，如果对象中的属性发生了变化，不会触发侦听器！！！</li></ul></li><li>对象格式的侦听器<ul><li>好处1：可以通过 <strong>immediate</strong> 选项，让侦听器自动触发！！！</li><li>好处2：可以通过 <strong>deep</strong> 选项，让侦听器深度监听对象中每个属性的变化！！！</li></ul></li></ol><h2 id="计算属性"><a href="#计算属性" class="headerlink" title="计算属性"></a>计算属性</h2><p>特点：</p><ol><li>定义的时候，要被定义为“方法”</li><li>在使用计算属性的时候，当普通的属性使用即可</li></ol><p>好处：</p><ol><li>实现了代码的复用</li><li>只要计算属性中依赖的数据源变化了，则计算属性会自动重新求值！</li></ol><h2 id="axios"><a href="#axios" class="headerlink" title="axios"></a>axios</h2><blockquote><p>axios 是一个专注于网络请求的库！</p></blockquote><h3 id="axios-的基本使用"><a href="#axios-的基本使用" class="headerlink" title="axios 的基本使用"></a>axios 的基本使用</h3><ol><li><p>发起 GET 请求：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="title function_">axios</span>(&#123;</span><br><span class="line">  <span class="comment">// 请求方式</span></span><br><span class="line">  <span class="attr">method</span>: <span class="string">&#x27;GET&#x27;</span>,</span><br><span class="line">  <span class="comment">// 请求的地址</span></span><br><span class="line">  <span class="attr">url</span>: <span class="string">&#x27;http://www.liulongbin.top:3006/api/getbooks&#x27;</span>,</span><br><span class="line">  <span class="comment">// URL 中的查询参数</span></span><br><span class="line">  <span class="attr">params</span>: &#123;</span><br><span class="line">    <span class="attr">id</span>: <span class="number">1</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;).<span class="title function_">then</span>(<span class="keyword">function</span> (<span class="params">result</span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(result)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></li><li><p>发起 POST 请求：</p><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">document</span>.<span class="title function_">querySelector</span>(<span class="string">&#x27;#btnPost&#x27;</span>).<span class="title function_">addEventListener</span>(<span class="string">&#x27;click&#x27;</span>, <span class="keyword">async</span> <span class="keyword">function</span> (<span class="params"></span>) &#123;</span><br><span class="line">  <span class="comment">// 如果调用某个方法的返回值是 Promise 实例，则前面可以添加 await！</span></span><br><span class="line">  <span class="comment">// await 只能用在被 async “修饰”的方法中</span></span><br><span class="line">  <span class="keyword">const</span> &#123; <span class="attr">data</span>: res &#125; = <span class="keyword">await</span> <span class="title function_">axios</span>(&#123;</span><br><span class="line">    <span class="attr">method</span>: <span class="string">&#x27;POST&#x27;</span>, </span><br><span class="line">    <span class="attr">url</span>: <span class="string">&#x27;http://www.liulongbin.top:3006/api/post&#x27;</span>,</span><br><span class="line">    <span class="attr">data</span>: &#123;</span><br><span class="line">      <span class="attr">name</span>: <span class="string">&#x27;zs&#x27;</span>,</span><br><span class="line">      <span class="attr">age</span>: <span class="number">20</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line"></span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(res)</span><br><span class="line">&#125;)</span><br></pre></td></tr></table></figure></li></ol><h2 id="vue-cli-的使用"><a href="#vue-cli-的使用" class="headerlink" title="vue-cli 的使用"></a>vue-cli 的使用</h2><ol><li><p>在终端下运行如下的命令，创建指定名称的项目：</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vue cerate 项目的名称</span><br></pre></td></tr></table></figure></li><li><p>vue 项目中 src 目录的构成：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">assets 文件夹：存放项目中用到的静态资源文件，例如：css 样式表、图片资源</span><br><span class="line">components 文件夹：程序员封装的、可复用的组件，都要放到 components 目录下</span><br><span class="line">main.js 是项目的入口文件。整个项目的运行，要先执行 main.js</span><br><span class="line">App.vue 是项目的根组件。</span><br></pre></td></tr></table></figure></li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vue </tag>
             
         </tags>
       
@@ -110,6 +189,33 @@
     
     
     <entry>
+      <title>随机壁纸API汇总</title>
+      <link href="/posts/ffde9a2a.html"/>
+      <url>/posts/ffde9a2a.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="随机壁纸API汇总"><a href="#随机壁纸API汇总" class="headerlink" title="随机壁纸API汇总"></a>随机壁纸API汇总</h2><p>网上可以查到很多随机壁纸的API，但是很多都用不了或者是图片质量比较低，于是今天汇总了一些目前可以用的随机壁纸API，其中列出来的图片质量都是比较高的，可以放心食用，本站随机壁纸API模块用的都是这部分API。</p><ul><li>必应每日壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://bing.img.run/m.php</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://bing.img.run/1920x1080.php</span><br></pre></td></tr></table></figure><ul><li>必应历史壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://bing.img.run/rand_m.php</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://bing.img.run/rand.php</span><br></pre></td></tr></table></figure><ul><li>EEE.DOG动漫壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://api.yimian.xyz/img?type=moe&amp;size=1920x1080</span><br></pre></td></tr></table></figure><ul><li>seovx随机美图</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://cdn.seovx.com/?mom=302</span><br></pre></td></tr></table></figure><ul><li>picsum随机壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://picsum.photos/1920/1080.webp</span><br></pre></td></tr></table></figure><ul><li>小歪二次元壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://api.ixiaowai.cn/api/api.php</span><br></pre></td></tr></table></figure><ul><li>小歪高清壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://api.ixiaowai.cn/gqapi/gqapi.php</span><br></pre></td></tr></table></figure><ul><li>tuapi动漫壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://tuapi.eees.cc/api.php?category=dongman</span><br></pre></td></tr></table></figure><ul><li>unsplash随机壁纸</li></ul><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://source.unsplash.com/random/1920x1080/</span><br></pre></td></tr></table></figure><p>具体的参数可以到相应官网查看API文档，这部分已经通过测试，到目前为止都是可用的，并且壁纸质量比较高；尤其是<code>必应</code>、<code>unsplash</code>、<code>picsum</code>这几个API的图片质量十分高，赶紧给你的网站换上随机壁纸吧！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 随机壁纸 </tag>
+            
+            <tag> API </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在大学如何避免脱单？</title>
       <link href="/posts/ad4a944a.html"/>
       <url>/posts/ad4a944a.html</url>
@@ -135,14 +241,63 @@
     </entry>
     
     
+    
+    <entry>
+      <title>添加恋爱计时小组件</title>
+      <link href="/posts/e6d4ba92.html"/>
+      <url>/posts/e6d4ba92.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>一个可以让你网站侧栏不在那么孤单的代码，自定义恋爱计时</p><h2 id="实现效果"><a href="#实现效果" class="headerlink" title="实现效果"></a>实现效果</h2><p><img src="https://img.777nx.cn/html/loveTime.png"></p><h2 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 恋爱计时 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">&quot;header_slideout-count&quot;</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;lovesyl&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 100%; height: 100%; text-align: center; font-size: 1rem;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">div</span> <span class="attr">id</span>=<span class="string">&quot;lovesylImage&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 220px; margin: 0 auto;&quot;</span>&gt;</span></span><br><span class="line">            <span class="comment">&lt;!-- 左边的头像 --&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://img.777nx.cn/%E6%83%85%E5%A4%B4/%E6%83%85%E5%A4%B411.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;love&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">style</span>=<span class="string">&quot;width: 60px; border-radius: 50%;&quot;</span>&gt;</span></span><br><span class="line">            <span class="comment">&lt;!-- 中间的图片 --&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://img.777nx.cn/lovesyl.gif&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;love&quot;</span> <span class="attr">style</span>=<span class="string">&quot;width: 60px; border-radius: 50%;&quot;</span>&gt;</span></span><br><span class="line">            <span class="comment">&lt;!-- 右边的头像 --&gt;</span></span><br><span class="line">            <span class="tag">&lt;<span class="name">img</span> <span class="attr">src</span>=<span class="string">&quot;https://img.777nx.cn/%E6%83%85%E5%A4%B4/%E6%83%85%E5%A4%B412.jpg&quot;</span> <span class="attr">alt</span>=<span class="string">&quot;love&quot;</span></span></span><br><span class="line"><span class="tag">                <span class="attr">style</span>=<span class="string">&quot;width: 60px; border-radius: 50%;&quot;</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">p</span> <span class="attr">id</span>=<span class="string">&quot;loveSitetime&quot;</span> <span class="attr">style</span>=<span class="string">&quot;font-size: 1.0rem;&quot;</span>&gt;</span><span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">script</span> <span class="attr">language</span>=<span class="string">javascript</span>&gt;</span><span class="language-javascript"></span></span><br><span class="line"><span class="language-javascript">            <span class="keyword">function</span> <span class="title function_">loveSitetime</span>(<span class="params"></span>) &#123;</span></span><br><span class="line"><span class="language-javascript">                <span class="variable language_">window</span>.<span class="built_in">setTimeout</span>(<span class="string">&quot;loveSitetime()&quot;</span>, <span class="number">1000</span>);</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> seconds = <span class="number">1000</span></span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> minutes = seconds * <span class="number">60</span></span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> hours = minutes * <span class="number">60</span></span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> days = hours * <span class="number">24</span></span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> years = days * <span class="number">365</span></span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> today = <span class="keyword">new</span> <span class="title class_">Date</span>()</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> todayYear = today.<span class="title function_">getFullYear</span>()</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> todayMonth = today.<span class="title function_">getMonth</span>() + <span class="number">1</span></span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> todayDate = today.<span class="title function_">getDate</span>()</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> todayHour = today.<span class="title function_">getHours</span>()</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> todayMinute = today.<span class="title function_">getMinutes</span>()</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> todaySecond = today.<span class="title function_">getSeconds</span>()</span></span><br><span class="line"><span class="language-javascript">                <span class="comment">// 时间设置</span></span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> t1 = <span class="title class_">Date</span>.<span class="title function_">UTC</span>(<span class="number">2022</span>, <span class="number">06</span>, <span class="number">01</span>, <span class="number">00</span>, <span class="number">00</span>, <span class="number">00</span>)</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> t2 = <span class="title class_">Date</span>.<span class="title function_">UTC</span>(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond)</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> diff = t2 - t1</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> diffYears = <span class="title class_">Math</span>.<span class="title function_">floor</span>(diff / years)</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> diffDays = <span class="title class_">Math</span>.<span class="title function_">floor</span>((diff / days) - diffYears * <span class="number">365</span>)</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> diffHours = <span class="title class_">Math</span>.<span class="title function_">floor</span>((diff - (diffYears * <span class="number">365</span> + diffDays) * days) / hours)</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> diffMinutes = <span class="title class_">Math</span>.<span class="title function_">floor</span>((diff - (diffYears * <span class="number">365</span> + diffDays) * days - diffHours * hours) / minutes)</span></span><br><span class="line"><span class="language-javascript">                <span class="keyword">var</span> diffSeconds = <span class="title class_">Math</span>.<span class="title function_">floor</span>((diff - (diffYears * <span class="number">365</span> + diffDays) * days - diffHours * hours -</span></span><br><span class="line"><span class="language-javascript">                    diffMinutes * minutes) / seconds)</span></span><br><span class="line"><span class="language-javascript">                <span class="variable language_">document</span>.<span class="title function_">getElementById</span>(<span class="string">&quot;loveSitetime&quot;</span>).<span class="property">innerHTML</span> = <span class="string">&quot;我们相恋了：&lt;/br&gt;&quot;</span> + diffYears + <span class="string">&quot;年&quot;</span> + diffDays + <span class="string">&quot;天&quot;</span> +</span></span><br><span class="line"><span class="language-javascript">                    diffHours + <span class="string">&quot;时&quot;</span> + diffMinutes + <span class="string">&quot;分&quot;</span> + diffSeconds + <span class="string">&quot;秒啦&lt;/br&gt;&quot;</span></span></span><br><span class="line"><span class="language-javascript">            &#125;</span></span><br><span class="line"><span class="language-javascript">            <span class="title function_">loveSitetime</span>()</span></span><br><span class="line"><span class="language-javascript">        </span><span class="tag">&lt;/<span class="name">script</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">div</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 恋爱 </tag>
+            
+            <tag> 计时器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
   
   
+    
+    
+    <entry>
+      <title>便携小空调 - 为你的夏日带去清凉!</title>
+      <link href="/air-conditioner/index.html"/>
+      <url>/air-conditioner/index.html</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
+      
+    </entry>
+    
     
     
     <entry>
       <title>关于</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>即刻短文</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -173,11 +328,11 @@
     
     
     <entry>
-      <title>便携小空调 - 为你的夏日带去清凉!</title>
-      <link href="/air-conditioner/index.html"/>
-      <url>/air-conditioner/index.html</url>
+      <title>朋友圈</title>
+      <link href="/fcircle/index.html"/>
+      <url>/fcircle/index.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
@@ -195,42 +350,20 @@
     
     
     <entry>
-      <title>音乐馆</title>
-      <link href="/music/index.html"/>
-      <url>/music/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>即刻短文</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>link</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="本站友链添加方式："><a href="#本站友链添加方式：" class="headerlink" title="本站友链添加方式："></a>本站友链添加方式：</h2><div class="tabs" id="link"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#link-1">🙋 butterfly-💭candy</button></li><li class="tab"><button type="button" data-href="#link-2">🥗Volantis</button></li><li class="tab"><button type="button" data-href="#link-3">🌴General</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="link-1"><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Fantasy的技术小站</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://www.777nx.cn/</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://qiniu.777nx.cn/avatar.webp</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">记录精彩的程序人生</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="string">https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-2"><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Fantasy的技术小站&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;screenshot&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://www.777nx.cn/&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://qiniu.777nx.cn/avatar.webp&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;记录精彩的程序人生&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Fantasy&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-3"><table><thead><tr><th align="center">名称</th><th align="center">数值</th></tr></thead><tbody><tr><td align="center">站点名称</td><td align="center">Fantasy的技术小站</td></tr><tr><td align="center">站点截图</td><td align="center"><a href="https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg">https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg</a></td></tr><tr><td align="center">站点链接</td><td align="center"><a href="https://www.777nx.cn/">https://www.777nx.cn/</a></td></tr><tr><td align="center">站点头像</td><td align="center"><a href="https://qiniu.777nx.cn/avatar.webp">https://qiniu.777nx.cn/avatar.webp</a></td></tr><tr><td align="center">站点描述</td><td align="center">记录精彩的程序人生</td></tr><tr><td align="center">站点关键词</td><td align="center">Fantasy，个人博客，代码</td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="加入本站友链方式"><a href="#加入本站友链方式" class="headerlink" title="加入本站友链方式"></a>加入本站友链方式</h2><p>参照以下格式留言即可</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="comment">#站点名称</span></span><br><span class="line">  <span class="attr">link:</span> <span class="comment">#站点链接</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="comment">#站长头像</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="comment">#站点描述</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="comment">#站点截图 </span></span><br></pre></td></tr></table></figure><p>站点截图可以自己提供，尺寸尽量不要大于 600*600，图片压缩后最好小于200KB。<br>未提供站点预览图的，本站会根据贵站链接调用以下 API 自动获取贵站的站点截图。<br>对于做了反扒措施的站点，API 获取的将是反扒页面，望知悉。<br>站点截图建议使用以下 API 获取以匹配本站样式<br>有部分朋友的截图体积过大影响加载速度，后面一律采用小体积截图代替望周知</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://&lt;你的域名&gt;/</span><br></pre></td></tr></table></figure><div class="note primary flat"><p>🎉本站支持交换友链，在您提出申请之前，请将本站添加至友链<br>🥗为了保障本站用户，本站仅支持个人网站的友链申请<br>🍧申请本站友链需要拥有独立域名（非免费域名），建议开启全站HTTPS<br>🥫如果友情链接已经添加，请保持网站的正常访问，会定期清理僵尸网站<br>🍖网站有一定的实质性内容和主题，不能是空壳网站和练手网站<br>💕感谢您对本站的支持，如果您已经满足上述要求，请在下方表单提交友链申请~~~</p></div>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>朋友圈</title>
-      <link href="/fcircle/index.html"/>
-      <url>/fcircle/index.html</url>
+      <title>音乐馆</title>
+      <link href="/music/index.html"/>
+      <url>/music/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
