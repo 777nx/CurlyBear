@@ -207,6 +207,13 @@
   </url>
   
   <url>
+    <loc>https://blog.777nx.cn/tags/npm/</loc>
+    <lastmod>2023-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.777nx.cn/tags/Web%E5%BA%94%E7%94%A8%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</loc>
     <lastmod>2023-03-28</lastmod>
     <changefreq>weekly</changefreq>
@@ -215,27 +222,6 @@
   
   <url>
     <loc>https://blog.777nx.cn/tags/%E8%BD%AF%E4%BB%B6%E7%8E%AF%E5%A2%83/</loc>
-    <lastmod>2023-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.777nx.cn/tags/npm/</loc>
-    <lastmod>2023-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.777nx.cn/tags/%E7%BD%91%E7%AB%99/</loc>
-    <lastmod>2023-03-28</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.777nx.cn/tags/APP/</loc>
     <lastmod>2023-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -306,6 +292,20 @@
   
   <url>
     <loc>https://blog.777nx.cn/tags/%E8%84%B1%E5%8D%95/</loc>
+    <lastmod>2023-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.777nx.cn/tags/%E7%BD%91%E7%AB%99/</loc>
+    <lastmod>2023-03-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.777nx.cn/tags/APP/</loc>
     <lastmod>2023-03-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
