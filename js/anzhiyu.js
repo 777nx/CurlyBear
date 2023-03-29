@@ -676,7 +676,7 @@ var anzhiyu = {
       for (var j = 0; j < lmail.length; j++) {
         var mail = document.querySelector(lmail[j]);
         if (mail != null) {
-          mail.value = "visitor@anzhiy.cn";
+          mail.value = visitorMail;
           mail.dispatchEvent(new Event("input"));
           mail.dispatchEvent(new Event("change"));
           break;
