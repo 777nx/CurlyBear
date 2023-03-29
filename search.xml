@@ -20,9 +20,9 @@
       
         <tags>
             
-            <tag> npm </tag>
-            
             <tag> node </tag>
+            
+            <tag> npm </tag>
             
         </tags>
       
@@ -295,6 +295,17 @@
     
     
     <entry>
+      <title>我的日常</title>
+      <link href="/dailyPhoto/index.html"/>
+      <url>/dailyPhoto/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>便携小空调 - 为你的夏日带去清凉!</title>
       <link href="/air-conditioner/index.html"/>
       <url>/air-conditioner/index.html</url>
@@ -306,20 +317,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>我的日常</title>
-      <link href="/dailyPhoto/index.html"/>
-      <url>/dailyPhoto/index.html</url>
+      <title>朋友圈</title>
+      <link href="/fcircle/index.html"/>
+      <url>/fcircle/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -339,9 +339,9 @@
     
     
     <entry>
-      <title>朋友圈</title>
-      <link href="/fcircle/index.html"/>
-      <url>/fcircle/index.html</url>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
