@@ -273,20 +273,9 @@
     
     
     <entry>
-      <title>分类</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>相册集</title>
-      <link href="/album/index.html"/>
-      <url>/album/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -306,9 +295,9 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -320,6 +309,17 @@
       <title>我的日常</title>
       <link href="/dailyPhoto/index.html"/>
       <url>/dailyPhoto/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>分类</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -350,7 +350,7 @@
     
     
     <entry>
-      <title>link</title>
+      <title>友人帐</title>
       <link href="/link/index.html"/>
       <url>/link/index.html</url>
       
