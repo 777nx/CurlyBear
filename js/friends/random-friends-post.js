@@ -1,5 +1,5 @@
 var fdata = {
-  apiurl: "https://friends.anzhiy.cn/",
+  apiurl: "https://moments.777nx.cn/",
   defaultFish: 100,
   hungryFish: 100,
 };
