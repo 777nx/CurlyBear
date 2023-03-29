@@ -2,7 +2,7 @@ var fdatalist = JSON.parse(localStorage.getItem("fdatalist"));
 //默认数据
 var fcdata = {
   jsonurl: "",
-  apiurl: "",
+  apiurl: "https://moments.777nx.cn/",
   apipublicurl: fdatalist.apiurl, //默认公共库
   initnumber: fdatalist.initnumber, //首次加载文章数
   stepnumber: fdatalist.stepnumber, //更多加载文章数
