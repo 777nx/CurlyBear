@@ -296,22 +296,22 @@
     
     
     <entry>
-      <title>便携小空调 - 为你的夏日带去清凉!</title>
-      <link href="/air-conditioner/index.html"/>
-      <url>/air-conditioner/index.html</url>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
       
-        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>便携小空调 - 为你的夏日带去清凉!</title>
+      <link href="/air-conditioner/index.html"/>
+      <url>/air-conditioner/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
       
     </entry>
     
@@ -329,20 +329,9 @@
     
     
     <entry>
-      <title>相册集</title>
-      <link href="/album/index.html"/>
-      <url>/album/index.html</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>即刻短文</title>
-      <link href="/essay/index.html"/>
-      <url>/essay/index.html</url>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -362,22 +351,33 @@
     
     
     <entry>
-      <title>友人帐</title>
-      <link href="/link/index.html"/>
-      <url>/link/index.html</url>
+      <title>朋友圈</title>
+      <link href="/fcircle/index.html"/>
+      <url>/fcircle/index.html</url>
       
-        <content type="html"><![CDATA[<h2 id="本站友链添加方式："><a href="#本站友链添加方式：" class="headerlink" title="本站友链添加方式："></a>本站友链添加方式：</h2><div class="tabs" id="link"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#link-1">🙋 butterfly-💭candy</button></li><li class="tab"><button type="button" data-href="#link-2">🥗Volantis</button></li><li class="tab"><button type="button" data-href="#link-3">🌴General</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="link-1"><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Fantasy的技术小站</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://www.777nx.cn/</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://qiniu.777nx.cn/avatar.webp</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">记录精彩的程序人生</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="string">https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-2"><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Fantasy的技术小站&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;screenshot&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://www.777nx.cn/&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://qiniu.777nx.cn/avatar.webp&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;记录精彩的程序人生&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Fantasy&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-3"><table><thead><tr><th align="center">名称</th><th align="center">数值</th></tr></thead><tbody><tr><td align="center">站点名称</td><td align="center">Fantasy的技术小站</td></tr><tr><td align="center">站点截图</td><td align="center"><a href="https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg">https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg</a></td></tr><tr><td align="center">站点链接</td><td align="center"><a href="https://www.777nx.cn/">https://www.777nx.cn/</a></td></tr><tr><td align="center">站点头像</td><td align="center"><a href="https://qiniu.777nx.cn/avatar.webp">https://qiniu.777nx.cn/avatar.webp</a></td></tr><tr><td align="center">站点描述</td><td align="center">记录精彩的程序人生</td></tr><tr><td align="center">站点关键词</td><td align="center">Fantasy，个人博客，代码</td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="加入本站友链方式"><a href="#加入本站友链方式" class="headerlink" title="加入本站友链方式"></a>加入本站友链方式</h2><p>参照以下格式留言即可</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="comment">#站点名称</span></span><br><span class="line">  <span class="attr">link:</span> <span class="comment">#站点链接</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="comment">#站长头像</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="comment">#站点描述</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="comment">#站点截图 </span></span><br></pre></td></tr></table></figure><p>站点截图可以自己提供，尺寸尽量不要大于 600*600，图片压缩后最好小于200KB。<br>未提供站点预览图的，本站会根据贵站链接调用以下 API 自动获取贵站的站点截图。<br>对于做了反扒措施的站点，API 获取的将是反扒页面，望知悉。<br>站点截图建议使用以下 API 获取以匹配本站样式<br>有部分朋友的截图体积过大影响加载速度，后面一律采用小体积截图代替望周知</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://&lt;你的域名&gt;/</span><br></pre></td></tr></table></figure><div class="note primary flat"><p>🎉本站支持交换友链，在您提出申请之前，请将本站添加至友链<br>🥗为了保障本站用户，本站仅支持个人网站的友链申请<br>🍧申请本站友链需要拥有独立域名（非免费域名），建议开启全站HTTPS<br>🥫如果友情链接已经添加，请保持网站的正常访问，会定期清理僵尸网站<br>🍖网站有一定的实质性内容和主题，不能是空壳网站和练手网站<br>💕感谢您对本站的支持，如果您已经满足上述要求，请在下方表单提交友链申请~~~</p></div>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>朋友圈</title>
-      <link href="/fcircle/index.html"/>
-      <url>/fcircle/index.html</url>
+      <title>即刻短文</title>
+      <link href="/essay/index.html"/>
+      <url>/essay/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>友人帐</title>
+      <link href="/link/index.html"/>
+      <url>/link/index.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="本站友链添加方式："><a href="#本站友链添加方式：" class="headerlink" title="本站友链添加方式："></a>本站友链添加方式：</h2><div class="tabs" id="link"><ul class="nav-tabs"><li class="tab active"><button type="button" data-href="#link-1">🙋 butterfly-💭candy</button></li><li class="tab"><button type="button" data-href="#link-2">🥗Volantis</button></li><li class="tab"><button type="button" data-href="#link-3">🌴General</button></li></ul><div class="tab-contents"><div class="tab-item-content active" id="link-1"><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="string">Fantasy的技术小站</span></span><br><span class="line">  <span class="attr">link:</span> <span class="string">https://www.777nx.cn/</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="string">https://qiniu.777nx.cn/avatar.webp</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="string">记录精彩的程序人生</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="string">https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-2"><figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="punctuation">&#123;</span></span><br><span class="line">  <span class="attr">&quot;title&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Fantasy的技术小站&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;screenshot&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;url&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://www.777nx.cn/&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;avatar&quot;</span><span class="punctuation">:</span> <span class="string">&quot;https://qiniu.777nx.cn/avatar.webp&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;description&quot;</span><span class="punctuation">:</span> <span class="string">&quot;记录精彩的程序人生&quot;</span><span class="punctuation">,</span></span><br><span class="line">  <span class="attr">&quot;keywords&quot;</span><span class="punctuation">:</span> <span class="string">&quot;Fantasy&quot;</span></span><br><span class="line"><span class="punctuation">&#125;</span></span><br></pre></td></tr></table></figure><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div><div class="tab-item-content" id="link-3"><table><thead><tr><th align="center">名称</th><th align="center">数值</th></tr></thead><tbody><tr><td align="center">站点名称</td><td align="center">Fantasy的技术小站</td></tr><tr><td align="center">站点截图</td><td align="center"><a href="https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg">https://qiniu.777nx.cn/siteshot/www.777nx.cn.jpg</a></td></tr><tr><td align="center">站点链接</td><td align="center"><a href="https://www.777nx.cn/">https://www.777nx.cn/</a></td></tr><tr><td align="center">站点头像</td><td align="center"><a href="https://qiniu.777nx.cn/avatar.webp">https://qiniu.777nx.cn/avatar.webp</a></td></tr><tr><td align="center">站点描述</td><td align="center">记录精彩的程序人生</td></tr><tr><td align="center">站点关键词</td><td align="center">Fantasy，个人博客，代码</td></tr></tbody></table><button type="button" class="tab-to-top" aria-label="scroll to top"><i class="fas fa-arrow-up"></i></button></div></div></div><h2 id="加入本站友链方式"><a href="#加入本站友链方式" class="headerlink" title="加入本站友链方式"></a>加入本站友链方式</h2><p>参照以下格式留言即可</p><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">-</span> <span class="attr">name:</span> <span class="comment">#站点名称</span></span><br><span class="line">  <span class="attr">link:</span> <span class="comment">#站点链接</span></span><br><span class="line">  <span class="attr">avatar:</span> <span class="comment">#站长头像</span></span><br><span class="line">  <span class="attr">descr:</span> <span class="comment">#站点描述</span></span><br><span class="line">  <span class="attr">siteshot:</span> <span class="comment">#站点截图 </span></span><br></pre></td></tr></table></figure><p>站点截图可以自己提供，尺寸尽量不要大于 600*600，图片压缩后最好小于200KB。<br>未提供站点预览图的，本站会根据贵站链接调用以下 API 自动获取贵站的站点截图。<br>对于做了反扒措施的站点，API 获取的将是反扒页面，望知悉。<br>站点截图建议使用以下 API 获取以匹配本站样式<br>有部分朋友的截图体积过大影响加载速度，后面一律采用小体积截图代替望周知</p><figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://&lt;你的域名&gt;/</span><br></pre></td></tr></table></figure><div class="note primary flat"><p>🎉本站支持交换友链，在您提出申请之前，请将本站添加至友链<br>🥗为了保障本站用户，本站仅支持个人网站的友链申请<br>🍧申请本站友链需要拥有独立域名（非免费域名），建议开启全站HTTPS<br>🥫如果友情链接已经添加，请保持网站的正常访问，会定期清理僵尸网站<br>🍖网站有一定的实质性内容和主题，不能是空壳网站和练手网站<br>💕感谢您对本站的支持，如果您已经满足上述要求，请在下方表单提交友链申请~~~</p></div>]]></content>
       
     </entry>
     
@@ -395,9 +395,9 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>世界各地风景</title>
+      <link href="/wordScenery/index.html"/>
+      <url>/wordScenery/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -406,9 +406,9 @@
     
     
     <entry>
-      <title>世界各地风景</title>
-      <link href="/wordScenery/index.html"/>
-      <url>/wordScenery/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
