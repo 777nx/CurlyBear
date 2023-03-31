@@ -178,36 +178,7 @@ var navFn = {
       GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day);
     }
     // handle some cases
-    typeof utterancesTheme === "function" && utterancesTheme();
-    typeof changeGiscusTheme === "function" && changeGiscusTheme();
-    typeof FB === "object" && window.loadFBComment && window.loadFBComment();
     typeof runMermaid === "function" && window.runMermaid();
-
-    //统计图
-    // let color = document.documentElement.getAttribute("data-theme") === "light" ? "#363636" : "#F7F7FA";
-    // if (document.getElementById("posts-chart")) {
-    //   let postsOptionNew = postsOption;
-    //   postsOptionNew.textStyle.color = color;
-    //   postsOptionNew.title.textStyle.color = color;
-    //   postsOptionNew.xAxis.axisLine.lineStyle.color = color;
-    //   postsOptionNew.yAxis.axisLine.lineStyle.color = color;
-    //   postsChart.setOption(postsOptionNew);
-    // }
-    // if (document.getElementById("tags-chart")) {
-    //   let tagsOptionNew = tagsOption;
-    //   tagsOptionNew.textStyle.color = color;
-    //   tagsOptionNew.title.textStyle.color = color;
-    //   tagsOptionNew.xAxis.axisLine.lineStyle.color = color;
-    //   tagsOptionNew.yAxis.axisLine.lineStyle.color = color;
-    //   tagsChart.setOption(tagsOptionNew);
-    // }
-    // if (document.getElementById("categories-chart")) {
-    //   let categoriesOptionNew = categoriesOption;
-    //   categoriesOptionNew.textStyle.color = color;
-    //   categoriesOptionNew.title.textStyle.color = color;
-    //   categoriesOptionNew.legend.textStyle.color = color;
-    //   categoriesChart.setOption(categoriesOptionNew);
-    // }
   },
 };
 

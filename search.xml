@@ -13,7 +13,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 前端开发 </category>
           
       </categories>
       
@@ -38,7 +38,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 前端开发 </category>
           
       </categories>
       
@@ -63,7 +63,7 @@
       
       <categories>
           
-          <category> 生活 </category>
+          <category> 生活日常 </category>
           
       </categories>
       
@@ -88,7 +88,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 前端开发 </category>
           
       </categories>
       
@@ -115,7 +115,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 前端开发 </category>
           
       </categories>
       
@@ -140,7 +140,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 前端开发 </category>
           
       </categories>
       
@@ -167,7 +167,7 @@
       
       <categories>
           
-          <category> 生活 </category>
+          <category> 生活日常 </category>
           
       </categories>
       
@@ -194,7 +194,7 @@
       
       <categories>
           
-          <category> 大学 </category>
+          <category> 大学生涯 </category>
           
       </categories>
       
@@ -221,7 +221,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 前端开发 </category>
           
       </categories>
       
@@ -248,7 +248,7 @@
       
       <categories>
           
-          <category> 大学 </category>
+          <category> 大学生涯 </category>
           
       </categories>
       
@@ -275,7 +275,7 @@
       
       <categories>
           
-          <category> 前端 </category>
+          <category> 前端开发 </category>
           
       </categories>
       
@@ -296,11 +296,11 @@
     
     
     <entry>
-      <title>相册集</title>
-      <link href="/album/index.html"/>
-      <url>/album/index.html</url>
+      <title>便携小空调 - 为你的夏日带去清凉!</title>
+      <link href="/air-conditioner/index.html"/>
+      <url>/air-conditioner/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
       
     </entry>
     
@@ -318,22 +318,11 @@
     
     
     <entry>
-      <title>关于</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>相册集</title>
+      <link href="/album/index.html"/>
+      <url>/album/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>便携小空调 - 为你的夏日带去清凉!</title>
-      <link href="/air-conditioner/index.html"/>
-      <url>/air-conditioner/index.html</url>
-      
-        <content type="html"><![CDATA[<blockquote><p>终于为博客安装上了便携小空调</p></blockquote><style>.copyright-box a {  border-bottom: none !important;  padding: 0 !important;}</style><div id="air-conditioner-vue"></div><script defer data-pjax src='https://npm.elemecdn.com/anzhiyu-air-conditioner@1.0.1/index.3f125bc6.js'></script>]]></content>
       
     </entry>
     
@@ -384,9 +373,20 @@
     
     
     <entry>
-      <title>标签</title>
-      <link href="/tags/index.html"/>
-      <url>/tags/index.html</url>
+      <title>世界各地风景</title>
+      <link href="/wordScenery/index.html"/>
+      <url>/wordScenery/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -406,9 +406,9 @@
     
     
     <entry>
-      <title>世界各地风景</title>
-      <link href="/wordScenery/index.html"/>
-      <url>/wordScenery/index.html</url>
+      <title>标签</title>
+      <link href="/tags/index.html"/>
+      <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

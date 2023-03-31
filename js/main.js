@@ -503,9 +503,6 @@ document.addEventListener("DOMContentLoaded", function () {
         GLOBAL_CONFIG.Snackbar !== undefined && btf.snackbarShow(GLOBAL_CONFIG.Snackbar.night_to_day);
       }
       // handle some cases
-      typeof utterancesTheme === "function" && utterancesTheme();
-      typeof changeGiscusTheme === "function" && changeGiscusTheme();
-      typeof FB === "object" && window.loadFBComment && window.loadFBComment();
       typeof runMermaid === "function" && window.runMermaid();
     },
     showOrHideBtn: e => {

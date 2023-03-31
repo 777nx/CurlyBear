@@ -28,6 +28,18 @@ window.addEventListener("load", () => {
 
   const searchClickFn = () => {
     document.querySelector("#search-button > .search").addEventListener("click", openSearch);
+    document.getElementById("search-mask").addEventListener("click", closeSearch);
+    document.querySelector("#algolia-search .search-close-button").addEventListener("click", closeSearch);
+    $("#menu-search").on("click", function () {
+      rm.hideRightMenu();
+      openSearch();
+      let t = document.querySelector("#algolia-search-input > div > form > input");
+      t.value = selectTextNow;
+      t.dispatchEvent(new Event("input"));
+      setTimeout(() => {
+        document.querySelector("#algolia-search-input > div > form > button.ais-SearchBox-submit").click();
+      }, 64);
+    });
   };
 
   const searchClickFnOnce = () => {
