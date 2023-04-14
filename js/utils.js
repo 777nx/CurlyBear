@@ -557,14 +557,36 @@ const anzhiyu = {
     input.focus();
     input.setSelectionRange(-1, -1);
   },
+  //友链随机传送
+  travelling() {
+    var fetchUrl = "https://friends.anzhiy.cn/randomfriend";
+    fetch(fetchUrl)
+      .then(res => res.json())
+      .then(json => {
+        var name = json.name;
+        var link = json.link;
+        Snackbar.show({
+          text:
+            "点击前往按钮进入随机一个友链，不保证跳转网站的安全性和可用性。本次随机到的是本站友链：「" + name + "」",
+          duration: 8000,
+          pos: "top-center",
+          actionText: "前往",
+          onActionClick: function (element) {
+            //Set opacity of element to 0 to close Snackbar
+            $(element).css("opacity", 0);
+            window.open(link, "_blank");
+          },
+        });
+      });
+  },
   //切换音乐播放状态
   musicToggle: function (changePaly = true) {
     if (!anzhiyu_musicFirst) {
       anzhiyu.musicBindEvent();
       anzhiyu_musicFirst = true;
     }
-    let msgPlay = '<i class="fa-solid fa-play"></i><span>播放音乐</span>'; // 此處可以更改為你想要顯示的文字
-    let msgPause = '<i class="fa-solid fa-pause"></i><span>暂停音乐</span>'; // 同上，但兩處均不建議更改
+    let msgPlay = '<i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span>'; // 此處可以更改為你想要顯示的文字
+    let msgPause = '<i class="anzhiyufont anzhiyu-icon-pause"></i><span>暂停音乐</span>'; // 同上，但兩處均不建議更改
     if (anzhiyu_musicPlaying) {
       navMusicEl.classList.remove("playing");
       document.getElementById("menu-music-toggle").innerHTML = msgPlay;
@@ -1030,6 +1052,22 @@ const anzhiyu = {
     }
     return isMobile;
   },
+
+  // 创建二维码
+  qrcodeCreate: function () {
+    if (document.getElementById("qrcode")) {
+      document.getElementById("qrcode").innerHTML = "";
+      var qrcode = new QRCode(document.getElementById("qrcode"), {
+        text: window.location.href,
+        width: 250,
+        height: 250,
+        colorDark: "#000",
+        colorLight: "#ffffff",
+        correctLevel: QRCode.CorrectLevel.H,
+      });
+    }
+  },
+
   // 判断是否在el内
   isInViewPortOfOne: function (el) {
     if (!el) return;
@@ -1038,5 +1076,15 @@ const anzhiyu = {
     const scrollTop = document.documentElement.scrollTop;
     const top = offsetTop - scrollTop;
     return top <= viewPortHeight;
+  },
+  //添加赞赏蒙版
+  addRewardMask: function () {
+    document.querySelector(".reward-main").style.display = "flex";
+    document.getElementById("quit-box").style.display = "flex";
+  },
+  // 移除赞赏蒙版
+  removeRewardMask: function () {
+    document.querySelector(".reward-main").style.display = "none";
+    document.getElementById("quit-box").style.display = "none";
   },
 };
