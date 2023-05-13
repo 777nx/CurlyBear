@@ -7682,7 +7682,6 @@ h1.page-title + .tag-cloud-list {
   display: box;
   display: flex;
   position: relative;
-  padding: 0 1.5rem;
   -webkit-box-align: center;
   -moz-box-align: center;
   -o-box-align: center;
